@@ -1,0 +1,32 @@
+site_name: 旅游规划系统文档
+repo_url: https://github.com/Yokumii/Data-Structure-Course-Design-Docs.git
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+
+plugins:
+  - search
+  - redirects
+
+nav:
+  - 首页: index.md
+  - 需求文档: 
+      - 功能需求: requirements/features.md
+      - 数据规范: requirements/data.md
+  - API参考: api.md
+
+extra:
+  version: 1.0.0
+  analytics:
+    provider: google
+    property: UA-XXXXX-Y
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
