@@ -13,11 +13,19 @@ plugins:
   - redirects
 
 nav:
-  - 首页: index.md
-  - 需求文档: 
+  - 项目概述: index.md
+  - 需求文档:
       - 功能需求: requirements/features.md
       - 数据规范: requirements/data.md
-  - API参考: api.md
+      - 用户用例: requirements/use_cases.md
+  - 设计文档:
+      - 系统架构: design/architecture.md
+      - 算法设计: design/algorithm.md
+  - API文档:
+      - 后端接口: api/backend.md
+      - 前端规范: api/frontend.md
+  - 测试报告: test/cases.md
+  - 部署指南: deployment/backend.md
 
 extra:
   version: 1.0.0
