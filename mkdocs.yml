@@ -13,7 +13,21 @@ plugins:
   - redirects
 
 nav:
-  - 项目概述: index.md
+  - 项目概述: 
+      - 项目介绍: home/index.md
+      - 协作指南: home/guide.md
+  - 提交材料:
+      - 项目计划书: reports/plan.md
+      - 第5周周报: reports/week5.md
+      - 第6周周报: reports/week6.md
+      - 第7周周报: reports/week7.md
+      - 第8周周报: reports/week8.md
+      - 第9周周报: reports/week9.md
+      - 第10周周报: reports/week10.md
+      - 第11周周报: reports/week11.md
+      - 第12周周报: reports/week12.md
+      - 第13周周报: reports/week13.md
+      - 第14周周报: reports/week14.md
   - 需求文档:
       - 功能需求: requirements/features.md
       - 数据规范: requirements/data.md
